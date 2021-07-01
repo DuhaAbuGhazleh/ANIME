@@ -1,0 +1,51 @@
+#green {
+color:green
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgba(192, 33, 99, 0.932);
+  border-radius: 1px;
+}
+
+a {
+
+  color: rgb(117, 23, 23);
+}
+
+a:link {
+  background-color: rgba(224, 75, 105, 0.329);
+  border: 2px solid rgba(224, 75, 105, 0.329);
+  padding: 5px 6px;
+  text-align:center;
+  text-decoration: none;
+  display: -webkit-inline-box;
+}
+
+h1{
+  float: left;
+}
+nav{
+  float: right;
+}
+h1{
+  float: left;
+}
+nav{
+  float: right;
+}
+    p{
+      color:rgba(66, 60, 60, 0.705);
+    }
+
+
+ header ul li{
+      display: inline-block;
+
+    }
+
+    h3{
+      color:rgb(199, 28, 85)
+    }
