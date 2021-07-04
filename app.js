@@ -6,8 +6,25 @@ alert("Welcome to our Website")
 var name = prompt("What is your name ?")
 
 console.log(name)
- 
- var like = prompt("Do like Anime ? (yes, No) ")
+var numofwatch = prompt(" How old were you when you watch your fav anime?")
+
+function numofwatchfun (num){
+var output= ''
+for (var i =0 ; i < num ; i++){
+
+console.log(output);
+  output = "I WAS "+  numofwatch  + "  WHEN I WATCHED MY FAV ANIME"
+}
+ return output;
+
+
+}
+document.write(numofwatchfun(numofwatch))
+
+
+ function animefun(){
+
+var like = prompt("Do like Anime ? (yes, No) ")
 while(like != "Yes"&&like != "yes"&&like != "No"&&like != "no"){ var like = prompt("Do like Anime ? (yes, No) ")}
   
 
@@ -43,7 +60,6 @@ document.write("<div>" + "<h3>" + prefer +"</h3>" + "<img src='https://sha3la.s3
 
     }
 
-   
 
 
 
@@ -54,6 +70,12 @@ document.write("<div>" + "<h3>" + prefer +"</h3>" + "<img src='https://sha3la.s3
 
    }
   
+
+
+ }
+ 
+animefun();
+
 
 
 
